@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *arr = @[@10,@1,@4,@2,@5,@8,@6,@3,@3];
+    NSArray *arr = @[@10,@1,@4,@2,@5,@8,@6,@3,@3,@1000,@111,@777,@111];
     NSInteger n = arr.count;
     self.resultArr = [NSMutableArray arrayWithArray:arr];
     [self quickSort:0 right:n-1];
